@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Responsive Halloween E-Commerce Website Design</title>
+    <title>index</title>
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
+        
         @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
 
 :root{
     --main-color:#ef7819;
@@ -58,9 +58,9 @@ html::-webkit-scrollbar-thumb{
 }
 
 html .running{
-    font-size: 100px;
+    font-size: 90px;
     color: rgb(255, 0, 0);
-    margin-bottom: 500px;
+    margin-bottom: 400px;
 }
 
 
@@ -365,12 +365,12 @@ section{
 
 <header class="header">
 
-    <a href="#" class="logo"> <i class="fas fa-running"> </i>  Funrun </a>
+    <a href="/index" class="logo"> <i class="fas fa-running"> </i>  Funrun </a>
 
     <nav class="navbar">
-        <a href="#home" class="active">home</a>
-        <a href="#products">Register</a>
-        <a href="#about">Login</a>
+        <a href="/index" class="active">home</a>
+        <a href="/register">Register</a>
+        <a href="/login">Login</a>
         <a href="#arrivals">arrivals</a>
     </nav>
 

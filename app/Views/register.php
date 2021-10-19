@@ -95,18 +95,6 @@
     opacity: 0.6;
 }
 
-@media (max-width: 576px) {
-    .registration-form form{
-        padding: 50px 20px;
-    }
-
-    .registration-form .form-icon{
-        width: 70px;
-        height: 70px;
-        font-size: 30px;
-        line-height: 70px;
-    }
-}
     </style>
 </head>
 <body>
