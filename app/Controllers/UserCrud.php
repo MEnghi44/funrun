@@ -12,6 +12,4 @@ class UserCrud extends BaseController
         $data['category'] = $category->orderBy('category_id', '')->findAll();
         return view('type', $data);  
     }
-
-
 }

@@ -12,13 +12,14 @@
     <div class="container mt-4">
         <div class="row justify-content-md-center">
             <div class="col-md-6">
-                <h1>ยินดีต้อนรับ สมาชิก Funrun</h1>
+                <h1>Profile</h1>
                 <hr>
                 <?php $session = session(); ?>
                 <h3><?php echo "รหัสประชาชน : " . $session->get('id_card'); ?></h3>
                 <h3><?php echo "ชื่อ : " . $session->get('name'); ?></h3>
-                <h3><?php echo "อายุ : " . $session->get('age'); ?></h3>
+                <h3><?php echo "อายุ : " . $session->get('age'); ?> ปี </h3>
                 <h3><?php echo "อีเมล : " . $session->get('email'); ?></h3>
+                <h3><?php echo "รหัสRUN : " . $session->get('ID'); ?></h3>
                 <h3><?php echo "ประเภทวิ่ง : " . $session->get('category_name'); ?></h3>
                 <h3><?php echo "ระยะเวลา : " . $session->get('length'); ?></h3>
                 <h3><?php echo "ราคา : " . $session->get('price'); ?></h3>

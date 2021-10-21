@@ -40,6 +40,7 @@ class Register extends Controller {
             ];
             
             $data1 = [ 
+                'ID' => $this->request->getVar('ID'),
                 'member' => $data['member'],
                 'category_run' => $this->request->getVar('category_run'),
             ];

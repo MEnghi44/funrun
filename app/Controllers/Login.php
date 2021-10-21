@@ -2,6 +2,7 @@
 
 use CodeIgniter\Controller;
 use App\Models\UserModel;
+use App\Models\Category;
 
 class Login extends Controller {
     public function index() {
