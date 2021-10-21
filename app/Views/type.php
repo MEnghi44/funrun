@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>type</title>
 
   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -143,27 +143,15 @@ section{
     padding:2rem 9%;
     background: #222;
 }
-.home{
-    padding:0;
-}
-.home .home-slider .box{
-    min-height: 86.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:2rem;
-    background-size: cover !important;
-    background-position: center !important;
-}
 .products {
-    margin-top: 80px;
-    
+    margin-top: 150px;
 }
 .th {
     color: rgb(255, 255, 255);
     font-size: 50px;
 }
 .footer{
+    margin-top: 184px;
     background: #000;
 }
 .footer .credit{
@@ -195,16 +183,46 @@ section{
 </header>
 <!-- header section ends -->
 
-<!-- home section starts  -->
-<section class="home" id="home">
-    <div class="swiper home-slider">
-            <div class="swiper-slide box" style="background: url(https://assets.website-files.com/5ef302186b3c968fea869204/5f0d207b6be6fe8ce7054b75_109351469_278928149996011_5787662877596196401_n.jpg);">
-            </div>
-    </div>
+<!-- products section starts  -->
+<section class="products mt-6" id="products">
+    <h1 class="heading"> ตารางประเภท <span>การลงแข่งวิ่ง</span> </h1>
+
+    
+    <?php
+     if(isset($_SESSION['msg'])){
+        echo $_SESSION['msg'];
+      }
+     ?>
+
+    <div class="mt-5">
+        <table class="table table-bordered" id="users-list">
+          <thead>
+             <tr>
+                <th>ประเภท</th>
+                <th>ระยะเวลา</th>
+                <th>ราคา</th>
+             </tr>
+          </thead>
+          <tbody>
+                    
+            <?php if($category): ?>
+            <?php foreach($category as $categor): ?>
+
+             <tr>
+                <td><?php echo $categor['category_name']; ?></td>
+                <td><?php echo $categor['length']; ?></td>
+                <td><?php echo $categor['price']; ?> บาท</td>
+             </tr>
+             
+             <?php endforeach; ?>
+         <?php endif; ?>
+
+          </tbody>
+        </table>
+     </div>
+
 </section>
-<!-- home section ends -->
-
-
+<!-- products section ends -->
 
 
 <!-- footer section starts  -->

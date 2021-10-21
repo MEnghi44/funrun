@@ -1,8 +1,10 @@
-<?php namespace App\Controllers;
+<?php 
+namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\UserModel;
 use App\Models\Category;
+use App\Models\Regis;
 
 class Register extends Controller {
     
@@ -28,6 +30,7 @@ class Register extends Controller {
         if ($this->validate($rules)) {
             $model = new UserModel();
             $Category = new Category();
+            $Regis = new Regis();
             $data = [
                 'id_card' => $this->request->getVar('id_card'),
                 'name' => $this->request->getVar('name'),
@@ -36,12 +39,12 @@ class Register extends Controller {
                 'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             ];
             
-            $data1 = [
-                'category_name' => $this->request->getVar('category_name'),
-                
+            $data1 = [ 
+                'member' => $data['member'],
+                'category_run' => $this->request->getVar('category_run'),
             ];
 
-            $Category->save($data1);
+            $Regis->save($data1);
             $model->save($data);
 
             return redirect()->to('/login');

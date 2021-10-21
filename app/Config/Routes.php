@@ -33,6 +33,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/index', 'Home::index');
 
+$routes->get('/type', 'UserCrud::show');
+
 $routes->get('/dashboard', 'Dashboard::index', ['filter' => 'auth']);
 $routes->get('/logout', 'Login::logout');
 
