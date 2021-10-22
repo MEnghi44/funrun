@@ -2,6 +2,7 @@
 
 use CodeIgniter\Controller;
 use App\Models\UserModel;
+use App\Models\Regis;
 use App\Models\Category;
 
 class Login extends Controller {
@@ -14,9 +15,18 @@ class Login extends Controller {
     public function auth() {
         $session = session();
         $model = new UserModel();
+        $regis = new Regis();
+        $category = new Category();
+
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
+
         $data = $model->where('email', $email)->first();
+        $data = $regis->where('id_card', $regis)->first();
+        //$data = $category->where('category_run ', $category)->first();
+
+
+
         if ($data) {
             $pass = $data['password'];
             $verify_password = password_verify($password, $pass);
@@ -26,6 +36,7 @@ class Login extends Controller {
                     'name' => $data['name'],
                     'age' => $data['age'],
                     'email' => $data['email'],
+                    
                     'logged_in' => TRUE
                 ];
                 $session->set($ses_data);

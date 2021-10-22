@@ -37,7 +37,9 @@
                 <div class="form-items">
                     
                     <h3>Register Run</h3>
-
+                    <?php if(isset($validation)): ?>
+                        <div class="alert alert-danger"><?= $validation->listErrors(); ?></div>
+                    <?php endif; ?>
         
 
                     <form class="requires-validation" action="/register/save" method="post">
