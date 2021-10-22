@@ -55,24 +55,24 @@ section{
     top:0; left:0; right:0;
     z-index: 1000;
     background: rgba(0,0,0,.3);
-    padding: 1.2rem 9%;
+    padding:3rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .header .logo{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color:#fff;
     font-weight: bolder;
 }
 .header .logo i{
-    padding-right: 2.5rem;
+    padding-right: 2rem;
     color:var(--main-color);
     animation: floating 3s linear infinite;
 }
 
 .header .navbar a{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color:#fff;
     margin:0 1rem;
 }
@@ -133,7 +133,7 @@ section{
 
 .footer{
     background: #000;
-    margin-top: 1rem;
+    margin-top: 3.3rem;
 }
 .footer .credit{
     padding:1rem;
@@ -151,13 +151,13 @@ section{
 
 
 .form-holder {
-      margin-top: 70px;
+      margin-top: 110px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
-      min-height: 20vh;
+      min-height: 70vh;
 }
 
 .form-holder .form-content {
@@ -172,7 +172,7 @@ section{
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
-    padding: 15px;
+    padding: 135.5px;
 }
 
 .form-content .form-items {
