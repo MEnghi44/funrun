@@ -48,8 +48,8 @@ class Register extends Controller {
             $model->insert($data);
             $Regis->insert($data1);
           
-
             return view('login');
+            
         } else {
             $data['validation'] = $this->validator;
             echo view('register', $data);
