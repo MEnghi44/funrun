@@ -26,3 +26,148 @@ CRITICAL - 2021-10-22 05:00:58 --> Object of class App\Models\Regis could not be
 #10 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #11 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
 #12 {main}
+CRITICAL - 2021-10-22 06:42:54 --> Object of class App\Models\Regis could not be converted to string
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(443): strtr('SELECT *\nFROM `...', Array)
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\3-1\SCE\19-10สอบปลายภาค\funrun\app\Controllers\Login.php(25): CodeIgniter\Model->first()
+#7 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#8 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#12 {main}
+CRITICAL - 2021-10-22 06:43:10 --> Object of class App\Models\Regis could not be converted to string
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(443): strtr('SELECT *\nFROM `...', Array)
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\3-1\SCE\19-10สอบปลายภาค\funrun\app\Controllers\Login.php(25): CodeIgniter\Model->first()
+#7 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#8 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#12 {main}
+CRITICAL - 2021-10-22 06:50:57 --> Object of class App\Models\Regis could not be converted to string
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(443): strtr('SELECT *\nFROM `...', Array)
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\3-1\SCE\19-10สอบปลายภาค\funrun\app\Controllers\Login.php(25): CodeIgniter\Model->first()
+#7 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#8 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#12 {main}
+CRITICAL - 2021-10-22 06:53:57 --> syntax error, unexpected '<', expecting end of file
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#6 {main}
+CRITICAL - 2021-10-22 06:53:59 --> syntax error, unexpected '<', expecting end of file
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#6 {main}
+CRITICAL - 2021-10-22 06:54:03 --> syntax error, unexpected '<', expecting end of file
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#6 {main}
+CRITICAL - 2021-10-22 06:54:04 --> syntax error, unexpected '<', expecting end of file
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#6 {main}
+CRITICAL - 2021-10-22 06:54:05 --> syntax error, unexpected '<', expecting end of file
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#6 {main}
+CRITICAL - 2021-10-22 06:54:54 --> Class 'App\Controllers\Regis' not found
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#5 {main}
+CRITICAL - 2021-10-22 06:55:09 --> Class 'App\Controllers\Regis' not found
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#5 {main}
+CRITICAL - 2021-10-22 06:55:56 --> Class 'App\Controllers\Regis' not found
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#5 {main}
+CRITICAL - 2021-10-22 06:56:16 --> Class 'App\Controllers\Regis' not found
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#5 {main}
+CRITICAL - 2021-10-22 06:56:36 --> Class 'App\Controllers\Regis' not found
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#5 {main}
+CRITICAL - 2021-10-22 06:59:14 --> Object of class App\Models\Regis could not be converted to string
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(443): strtr('SELECT *\nFROM `...', Array)
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\3-1\SCE\19-10สอบปลายภาค\funrun\app\Controllers\Login.php(26): CodeIgniter\Model->first()
+#7 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#8 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#12 {main}
+CRITICAL - 2021-10-22 07:31:57 --> Object of class App\Models\Regis could not be converted to string
+#0 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(443): strtr('SELECT *\nFROM `...', Array)
+#1 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#4 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\3-1\SCE\19-10สอบปลายภาค\funrun\app\Controllers\Login.php(26): CodeIgniter\Model->first()
+#7 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#8 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\3-1\SCE\19-10สอบปลายภาค\funrun\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\3-1\SCE\19-10สอบปลายภาค\funrun\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\3-1\\SCE\\19-1...')
+#12 {main}

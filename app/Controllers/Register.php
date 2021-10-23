@@ -24,7 +24,6 @@ class Register extends Controller {
             'name' => 'required|min_length[3]|max_length[20]',
             'age' => 'required|min_length[1]|max_length[3]',
             'category_run' => 'required|min_length[1]|max_length[3]',
-            'ID' => 'required|min_length[9]|max_length[10]',
             'email' => 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.user_email]',
             'password' => 'required|min_length[6]|max_length[200]',
             'confpassword' => 'matches[password]',
@@ -42,7 +41,6 @@ class Register extends Controller {
             ];
             
             $data1 = [ 
-                'ID' => $this->request->getVar('ID'),
                 'member' => $this->request->getVar('id_card'),
                 'category_run' => $this->request->getVar('category_run'),
             ];

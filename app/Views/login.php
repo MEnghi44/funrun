@@ -43,7 +43,7 @@
                     <form class="requires-validation" action="/login/auth" method="post">
 
                         <div class="col-md-12">
-                            <input class="form-control" type="email" name="#1451 - Cannot delete or update a parent row: a foreign key constraint fails (`funrun`.`regis`, CONSTRAINT `regis_ibfk_1` FOREIGN KEY (`member`) REFERENCES `member` (`id_card`))" placeholder="อีเมลผู้ใช้งาน" value="<?= set_value('email'); ?>" required>
+                            <input class="form-control" type="email" name="email" placeholder="อีเมลผู้ใช้งาน" value="<?= set_value('email'); ?>" required>
                         </div>
 
                        <div class="col-md-12">

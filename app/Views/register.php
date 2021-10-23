@@ -66,9 +66,6 @@
                            </select>
                        </div>
 
-                       <div class="col-md-12">
-                            <input type="text" name="ID" class="form-control item" id="inputforID" value="<?= set_value('ID'); ?>" placeholder="กรอกรหัสRUNxxxxxxx">
-                        </div>
 
                         <div class="col-md-12">
                             <input type="email" name="email" class="form-control item" id="inputforemail" value="<?= set_value('email'); ?>" placeholder="กรอกอีเมลผู้ใช้งาน">

@@ -19,10 +19,6 @@
                 <h3><?php echo "ชื่อ : " . $session->get('name'); ?></h3>
                 <h3><?php echo "อายุ : " . $session->get('age'); ?> ปี </h3>
                 <h3><?php echo "อีเมล : " . $session->get('email'); ?></h3>
-                <h3><?php echo "รหัสRUN : " . $session->get('ID'); ?></h3>
-                <h3><?php echo "ประเภทวิ่ง : " . $session->get('member'); ?></h3>
-                <h3><?php echo "ระยะเวลา : " . $session->get('category_run'); ?></h3>
-
 
                 <br>
                 <a href="/logout" class="btn btn-danger">Logout</a>
