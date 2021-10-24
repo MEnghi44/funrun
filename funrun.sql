@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Feb 26, 2020 at 10:10 AM
--- Server version: 8.0.17
--- PHP Version: 7.3.10
+-- Host: 127.0.0.1
+-- Generation Time: Oct 24, 2021 at 08:28 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.4.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -30,8 +29,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `category` (
   `category_id` int(11) NOT NULL,
-  `category_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `length` varchar(10) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `category_name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `length` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `price` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -43,7 +42,7 @@ INSERT INTO `category` (`category_id`, `category_name`, `length`, `price`) VALUE
 (1, 'FUN RUN', '3KM', 550),
 (2, 'MINI MARATHON', '10KM', 550),
 (3, 'VIP', '3/10KM', 1000),
-(5, 'Super VIP', '15KM', 1200);
+(4, 'Super VIP', '15KM', 1200);
 
 -- --------------------------------------------------------
 
@@ -52,11 +51,11 @@ INSERT INTO `category` (`category_id`, `category_name`, `length`, `price`) VALUE
 --
 
 CREATE TABLE `member` (
-  `id_card` varchar(13) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `id_card` varchar(13) COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `age` int(11) NOT NULL,
-  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `password` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -65,6 +64,7 @@ CREATE TABLE `member` (
 
 INSERT INTO `member` (`id_card`, `name`, `age`, `email`, `password`) VALUES
 ('1234567890000', 'domtao', 8, 'domtao@gmail.com', '5ef143ce09adb81fb485ac241b2f80ca'),
+('123456789011', 'จิรายุส สหพรอุดมการ', 20, 'chirayut345@gmail.com', '$2y$10$AjulEKs.e9dGO64ucWaIxeLQe9mPK5eyWxcqpAOUMdohna0uinusq'),
 ('1234567890123', ' kalum', 2, 'kalum@mail.com', 'e807f1fcf82d132f9bb018ca6738a19f'),
 ('1710400062706', 'Mike Namchaisuk', 21, '604259003@webmail.npru.ac.th', 'd6f36bd154cf89560f0a1f542825aad2'),
 ('9874563210123', ' kalumplee', 3, 'kalumplee@mail.com', 'e807f1fcf82d132f9bb018ca6738a19f');
@@ -76,8 +76,8 @@ INSERT INTO `member` (`id_card`, `name`, `age`, `email`, `password`) VALUES
 --
 
 CREATE TABLE `regis` (
-  `ID` varchar(10) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `member` varchar(13) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ID` int(10) NOT NULL,
+  `member` varchar(13) COLLATE utf8_unicode_ci DEFAULT NULL,
   `category_run` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -86,7 +86,8 @@ CREATE TABLE `regis` (
 --
 
 INSERT INTO `regis` (`ID`, `member`, `category_run`) VALUES
-('RUN0000001', '1710400062706', 1);
+(1, '1710400062706', 1),
+(2, '123456789011', 2);
 
 --
 -- Indexes for dumped tables
@@ -121,6 +122,12 @@ ALTER TABLE `regis`
 --
 ALTER TABLE `category`
   MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `regis`
+--
+ALTER TABLE `regis`
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables
